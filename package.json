@@ -1,0 +1,23 @@
+{
+  "name": "p6",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://guthub.com/kollen25/pr6.git"
+  },
+  "description": ""
+}

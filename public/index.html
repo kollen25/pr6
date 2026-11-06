@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Управление студентами</title>
+</head>
+<body>
+  <h1>Управление студентами</h1>
+<!--************************************************************-->
+  <section>
+    <h2>Добавить студента</h2>
+
+    <form id="addForm">
+      <input name="first_name" id="first_name" placeholder="Имя" required>
+      <input name="last_name" id="last_name" placeholder="Фамилия" required>
+      <input name="email" id="email" type="email" placeholder="Email" required>
+      <input name="group_name" id="group_name" placeholder="Группа" required>
+      <button type="submit">Добавить</button>
+    </form>
+  </section>
+<!--************************************************************-->
+  <section>
+    <h2>Редактировать данные студента</h2>
+
+    <form id="updateForm">
+      <input name="id"  id="id1" type="number" placeholder="ID студента" required>
+      <input name="first_name1" id="first_name" placeholder="Новое имя" required>
+      <input name="last_name1" id="last_name" placeholder="Новая фамилия" required>
+      <input name="email" id="email1" type="email" placeholder="Новый email" required>
+      <input name="group_name" id="group_name1" placeholder="Новая группа" required>
+      <button type="submit">Сохранить изменения</button>
+    </form>
+  </section>
+<!--************************************************************-->
+  <section>
+    <h2>Удалить студента</h2>
+
+    <form id="deleteForm">
+      <input name="id" id="id" type="number" placeholder="ID студента" required>
+      <button type="submit">Удалить</button>
+    </form>
+  </section>
+<!--************************************************************-->
+<script src="script.js"></script>
+</body>
+</html>
